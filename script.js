@@ -14,12 +14,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const ul = document.getElementById('leaderboard');
 
+   
     leaderboard.forEach((item, index) => {
         const li = document.createElement('li');
+        li.style.animationDelay = `${index * 0.3}s`; // Ritardo progressivo
         li.innerHTML = `
             <div class="name"><strong>${index + 1}. ${item.name}</strong></div>
             <img src="${item.image}" alt="${item.name}" class="image">
-            <div class="points">${item.points} pd</div>
+            <div class="points">${item.points} punti</div>
         `;
         ul.appendChild(li);
     });
