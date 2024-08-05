@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         li.innerHTML = `
             <div class="name"><strong>${index + 1}. ${item.name}</strong></div>
             <img src="${item.image}" alt="${item.name}" class="image">
-            <div class="points">${item.points} punti</div>
+            <div class="points">${item.points} pd</div>
         `;
         ul.appendChild(li);
     });
