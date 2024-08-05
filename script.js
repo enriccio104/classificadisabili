@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const leaderboard = [
-        { name: 'markury singols', points: 16, image: 'verde.png' },
+        { name: 'markury singols', points: 18, image: 'verde.png' },
         { name: 'iphone rosso', points: 14, image: 'verde.png' },
         { name: 'mela melinda', points: 13, image: 'rosso.png' },
         { name: 'ovetto kinder', points: 12, image: 'rosso.png' },
