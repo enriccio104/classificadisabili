@@ -7,10 +7,12 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     min-height: 100vh;
     background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -20,6 +22,7 @@ body {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 h1 {
@@ -40,7 +43,7 @@ li {
     border-bottom: 1px solid #e0e0e0;
     opacity: 0;
     transform: translateY(-20px);
-    animation: slideIn 2s forwards;
+    animation: slideIn 3s forwards;
 }
 
 li:nth-child(odd) {
@@ -81,3 +84,33 @@ img {
         transform: translateY(0);
     }
 }
+
+/* Stili per il box staccato */
+.blue-box-container {
+    margin-top: 40px;
+    width: 90%;
+    max-width: 600px;
+    margin-bottom: 40px; /* Aggiunge spazio alla fine della pagina */
+}
+
+.blue-box {
+    padding: 15px;
+    border: 1px solid #007BFF;
+    border-radius: 10px;
+    background-color: #E9F7FF;
+}
+
+.blue-box h2 {
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+.blue-box p {
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.blue-box strong {
+    color: #007BFF;
+}
+
