@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     const leaderboard = [
         { name: 'markury singols', points: 16, image: 'verde.png' },
-        { name: 'mela melinda', points: 13, image: 'verde.png' },
-        { name: 'ovetto kinder', points: 12, image: 'verde.png' },
+        { name: 'iphone rosso', points: 14, image: 'verde.png' },
+        { name: 'mela melinda', points: 13, image: 'rosso.png' },
+        { name: 'ovetto kinder', points: 12, image: 'rosso.png' },
         { name: 'polettame xxx', points: 11, image: 'rosso.png' },
-        { name: 'iphone rosso', points: 11, image: 'rosso.png' },
         { name: 'diabete man', points: 4, image: 'verde.png' },
         { name: 'la lazzarinihh', points: 4, image: 'rosso.png' },
         { name: 'greg', points:3, image: 'rosso.png' },
