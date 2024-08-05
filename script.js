@@ -3,9 +3,12 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: 'markury singols', points: 16, image: 'verde.png' },
         { name: 'polettame xxx', points: 11, image: 'verde.png' },
         { name: 'iphone rosso', points: 11, image: 'rosso.png' },
+        { name: 'mela melinda', points: 10, image: 'rosso.png' },
         { name: 'ovetto kinder', points: 9, image: 'verde.png' },
+        { name: 'la lazzarinihh', points: 4, image: 'rosso.png' },
         { name: 'greg', points:3, image: 'verde.png' },
-        { name: 'diabete man', points: 2, image: 'rosso.png' }
+        { name: 'diabete man', points: 2, image: 'rosso.png' },
+        
     ];
 
     const ul = document.getElementById('leaderboard');
