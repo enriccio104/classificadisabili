@@ -7,8 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
         { name: 'polettame xxx', points: 11, image: 'rosso.png' },
         { name: 'diabete man', points: 4, image: 'verde.png' },
         { name: 'la lazzarinihh', points: 4, image: 'rosso.png' },
+        { name: 'sara la rue', points:3, image: 'verde.png' },
         { name: 'greg', points:3, image: 'rosso.png' },
-        { name: 'pasqua', points: 1, image: 'verde.png' },
+        { name: 'pasqua', points: 1, image: 'rosso.png' },
         
     ];
 
