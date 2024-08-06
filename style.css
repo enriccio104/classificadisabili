@@ -195,3 +195,57 @@ img {
 .purple-box strong {
     color: #ff00f2;
 }
+
+.yellow-box-container {
+    margin-top: 40px;
+    width: 90%;
+    max-width: 600px;
+}
+
+.yellow-box {
+    padding: 15px;
+    border: 1px solid #ffe100;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.yellow-box h2 {
+    margin-bottom: 10px;
+    color: #ffe100;
+}
+
+.yellow-box p {
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.yellow-box strong {
+    color: #ffe100;
+}
+
+.black-box-container {
+    margin-top: 40px;
+    width: 90%;
+    max-width: 600px;
+}
+
+.black-box {
+    padding: 15px;
+    border: 1px solid #211209;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.black-box h2 {
+    margin-bottom: 10px;
+    color: #211209;
+}
+
+.black-box p {
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.black-box strong {
+    color: #211209;
+}
