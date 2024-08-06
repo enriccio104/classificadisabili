@@ -249,3 +249,54 @@ img {
 .black-box strong {
     color: #211209;
 }
+
+.rgb-box-container {
+    margin-top: 40px;
+    width: 90%;
+    max-width: 600px;
+}
+
+.rgb-box {
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    animation: rgbBorder 3s infinite;
+}
+
+.rgb-box h2,
+.rgb-box p,
+.rgb-box strong {
+    animation: textColorChange 3s infinite;
+}
+
+@keyframes rgbBorder {
+    0% {
+        border-color: rgb(255, 0, 0);
+    }
+    33% {
+        border-color: rgb(0, 255, 0);
+    }
+    66% {
+        border-color: rgb(0, 0, 255);
+    }
+    100% {
+        border-color: rgb(255, 0, 255);
+    }
+}
+
+@keyframes textColorChange {
+    0% {
+        color: rgb(255, 0, 0);
+    }
+    33% {
+        color: rgb(0, 255, 0);
+    }
+    66% {
+        color: rgb(0, 0, 255);
+    }
+    100% {
+        color: rgb(255, 0, 255);
+    }
+}
+
