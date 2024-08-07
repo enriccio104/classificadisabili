@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const leaderboard = [
         { name: 'markury singols', points: 28, image: 'verde.png' },
         { name: 'iphone rosso', points: 18, image: 'verde.png' },
-        { name: 'polettame xxx', points: 15, image: 'verde.png' },
-        { name: 'ovetto kinder', points: 14, image: 'verde.png' },
-        { name: 'mela melinda', points: 13, image: 'rosso.png' },
+        { name: 'mela melinda', points: 15, image: 'verde.png' },
+        { name: 'polettame xxx', points: 15, image: 'rosso.png' },
+        { name: 'ovetto kinder', points: 14, image: 'rosso.png' },
         { name: 'la lazzarinihh', points: 7, image: 'verde.png' },
         { name: 'diabete man', points: 5, image: 'verde.png' },
         { name: 'sara la rue', points:3, image: 'rosso.png' },
